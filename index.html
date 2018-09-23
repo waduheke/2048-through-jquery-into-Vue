@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="app">
+    <div class="app"><header>
+      <h1>--2048</h1>
+      <button v-on:click="newgame">new game</button>
+      <form>
+        <label for="">
+          score: <input  ref="success" type="text" name="" value="0">
+        </label>
+      </form>
+    </header>
+    <section id="container">
+        <table ref="table" id="board">
+          <tr >
+            <td id = 't1'></td>
+            <td id = 't2'></td>
+            <td id = 't3'></td>
+            <td id = 't4'></td>
+          </tr>
+          <tr >
+            <td id = 't5'></td>
+            <td id = 't6'></td>
+            <td id = 't7'></td>
+            <td id = 't8'></td>
+          </tr>
+          <tr  >
+            <td id = 't9'></td>
+            <td id = 't10'></td>
+            <td id = 't11'></td>
+            <td id = 't12'></td>
+          </tr>
+          <tr  >
+            <td id = 't13'></td>
+            <td id = 't14'></td>
+            <td id = 't15'></td>
+            <td id = 't16'></td>
+          </tr>
+        </table>
+    </section></div>
+  </div>
+</body>
+<script src="js/vue.js"></script>
+<!-- <script src="js/jquery.js"></script> -->
+<!-- <script src="js/init.js"></script>
+<script src="js/active.js"></script> -->
+<script src="js/main.js"></script>
+</html>
